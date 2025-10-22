@@ -1,7 +1,7 @@
 # 💳 Credit Card Statement Parser
 
 A Python tool to extract, clean, and summarise data from credit card statements (PDF/CSV). 
-It helps users view billing details, spending categories, and transaction summaries in a clear format.
+It helps users view their bank details, total amount due, and payment due date in a clear format.
 
 🧩 Supported Banks
 
@@ -29,7 +29,7 @@ Shabbir Hardwarewala
 1. Upload a statement file  
 2. The program parses and extracts all data fields  
 3. Displays key info including billing period and bank name  
-4. Outputs a summary of expenses
+4. Outputs important details from the credit card statement
 
 <img width="832" height="740" alt="Screenshot 2025-10-22 at 12 27 34 PM" src="https://github.com/user-attachments/assets/613446cc-5c26-429f-a051-3d5bd79e1520" />
 <img width="832" height="740" alt="Screenshot 2025-10-22 at 12 27 54 PM" src="https://github.com/user-attachments/assets/a0c4c967-04c1-45df-92b1-19694ea0e455" />
