@@ -17,8 +17,6 @@ Axis Bank
 👨‍💻 Author
 
 Shabbir Hardwarewala
-GitHub Profile
-
 
 ## 🚀 Features
 - Extracts key details like **Billing Period**, **Total Due**, and **Transactions**
