@@ -1,4 +1,4 @@
-<img width="832" height="740" alt="Screenshot 2025-10-22 at 12 27 34 PM" src="https://github.com/user-attachments/assets/a33422fb-07f6-4e85-b16b-550e4bfc58b7" /># 💳 Credit Card Statement Parser
+# 💳 Credit Card Statement Parser
 
 A Python tool to extract, clean, and summarise data from credit card statements (PDF/CSV). 
 It helps users view billing details, spending categories, and transaction summaries in a clear format.
