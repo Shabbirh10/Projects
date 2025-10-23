@@ -7,8 +7,8 @@ from preporcess import prepare
 from utilities import train
 
 
-data_dir = 'D:/Youtube/Organ and Tumor Segmentation/datasets/Task03_Liver/Data_Train_Test'
-model_dir = 'D:/Youtube/Organ and Tumor Segmentation/results/results' 
+data_dir = ''
+model_dir = '' 
 data_in = prepare(data_dir, cache=True)
 
 device = torch.device("cuda:0")
@@ -28,4 +28,5 @@ loss_function = DiceLoss(to_onehot_y=True, sigmoid=True, squared_pred=True)
 optimizer = torch.optim.Adam(model.parameters(), 1e-5, weight_decay=1e-5, amsgrad=True)
 
 if __name__ == '__main__':
+
     train(model, data_in, loss_function, optimizer, 600, model_dir)
